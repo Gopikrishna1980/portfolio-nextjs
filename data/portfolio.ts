@@ -5,29 +5,63 @@ export const experiences: Experience[] = [
     id: '1',
     company: 'Verizon',
     position: 'Full Stack Developer',
-    duration: 'Current',
+    duration: 'April 2023 - Present',
     location: 'Remote',
     description: [
-      'Developing and maintaining full-stack applications using React, Node.js, and cloud technologies',
-      'Collaborating with cross-functional teams to deliver high-quality software solutions',
-      'Implementing responsive UI components and RESTful APIs',
-      'Participating in code reviews and agile development processes'
+      'Built and maintained Spring Boot microservices (Java 17) for Verizon Experience Platform (VXP), supporting customer-service operations for telecom features including Call Forwarding, Voicemail, APN Settings, and SMS notifications',
+      'Designed RESTful APIs with OpenAPI/Swagger documentation and implemented service-layer business logic for telephony workflows with strong security validations and PII masking',
+      'Integrated with downstream systems using Spring WebFlux + WebClient, including carrier gateways, Nokia SOAP/XML APIs, SMS platforms, and internal workflow services',
+      'Implemented resiliency patterns using Resilience4j (retry, circuit breaker, timeouts, fallbacks) and correlation IDs for improved observability',
+      'Developed UI components for 5G Home Internet and Payment Portal using React.js, Next.js, TypeScript, and Tailwind CSS with Verizon Design System',
+      'Monitored high-traffic production journeys using Quantum Metric and Kibana logs for root-cause analysis and incident triage',
+      'Implemented AI-powered features using approved enterprise AI platforms and automated troubleshooting tasks with Python scripts'
     ],
-    technologies: ['React', 'Node.js', 'TypeScript', 'AWS', 'MongoDB', 'REST APIs']
+    technologies: ['Java 17', 'Spring Boot', 'Spring WebFlux', 'React', 'Next.js', 'TypeScript', 'REST APIs', 'SOAP/XML', 'Resilience4j', 'PostgreSQL', 'Cassandra', 'Docker', 'Jenkins', 'Tailwind CSS', 'Python']
   },
   {
     id: '2',
-    company: 'Previous Company',
-    position: 'Frontend Developer',
-    duration: 'Previous',
+    company: 'CDK Global',
+    position: 'UI Developer',
+    duration: 'Jan 2022 - March 2023',
     location: 'Remote',
     description: [
-      'Developed responsive web applications using React and modern JavaScript',
-      'Collaborated with designers to implement pixel-perfect UIs',
-      'Optimized application performance and user experience',
-      'Maintained and improved existing codebases'
+      'Developed enterprise dashboard UI using Angular (v4-v6), TypeScript, RxJS, and Angular Material for automotive dealership management platform',
+      'Built reusable Angular components, services, and shared templates following Angular best practices and dependency injection patterns',
+      'Implemented reactive forms with complex validations and RxJS-based async data handling using Observables, switchMap, and error operators',
+      'Integrated RESTful APIs using Angular HttpClient, handling edge cases and mapping responses to UI models',
+      'Ensured cross-browser compatibility (including IE11) with Flexbox layouts and targeted CSS modifications'
     ],
-    technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Redux', 'Webpack']
+    technologies: ['Angular 4/5/6', 'TypeScript', 'RxJS', 'Angular Material', 'HTML5', 'SASS', 'REST APIs', 'Git', 'Jira']
+  },
+  {
+    id: '3',
+    company: 'Byte Cubed LLC',
+    position: 'UI Analyst/Developer',
+    duration: 'Aug 2020 - Dec 2021',
+    location: 'Crystal City, VA',
+    description: [
+      'Built hybrid mobile UI screens using PhoneGap/Cordova, jQuery, and Backbone.js for cross-platform iOS and Android experiences',
+      'Developed reusable UI patterns (dialogs, slide menus, carousels, infinite scroll) with improved responsiveness across devices',
+      'Integrated UI flows with REST APIs and handled client-side mapping of JSON responses with loading/error states',
+      'Implemented offline-first UI behavior using SQLite/WebSQL with encrypted local storage using SQL Cipher',
+      'Supported native capabilities through Cordova plugins (camera/video, browser view, dialer/contact actions) and geolocation-based UI functionality'
+    ],
+    technologies: ['JavaScript', 'jQuery', 'Backbone.js', 'PhoneGap/Cordova', 'HTML5', 'CSS3', 'REST APIs', 'SQLite', 'Git']
+  },
+  {
+    id: '4',
+    company: 'Nadella Info Tech',
+    position: 'UI Developer',
+    duration: 'Nov 2017 - Apr 2021',
+    location: 'Hyderabad, India',
+    description: [
+      'Designed and developed client portal for wealth management enabling high-net-worth clients to track portfolios and manage financial assets',
+      'Collaborated with Java backend team to integrate RESTful APIs built with Spring Boot, defining API contracts and validating payload structures',
+      'Developed dynamic, responsive UI components using React.js, JavaScript (ES6), HTML5, CSS3, Bootstrap, and SASS',
+      'Implemented secure authentication and session management with SSL/TLS and encrypted data transmission',
+      'Designed data visualization dashboards using Highcharts and integrated backend data for real-time reporting'
+    ],
+    technologies: ['React', 'JavaScript', 'TypeScript', 'Java', 'Spring Boot', 'HTML5', 'CSS3', 'SASS', 'Bootstrap', 'Highcharts', 'Jenkins', 'Git']
   }
 ];
 
@@ -85,30 +119,34 @@ export const projects: Project[] = [
 export const skills: Skill[] = [
   {
     category: 'Frontend',
-    items: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Redux Toolkit', 'TanStack Query', 'Material-UI', 'D3.js', 'Chart.js']
+    items: ['React', 'Next.js', 'Angular 4/5/6', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Tailwind CSS', 'Styled Components', 'SASS', 'Redux', 'RxJS', 'Angular Material', 'Material-UI', 'jQuery']
   },
   {
     category: 'Backend',
-    items: ['Node.js', 'Express', 'Java', 'Spring Boot', 'Spring WebFlux', 'REST APIs', 'GraphQL', 'Microservices', 'Apache Kafka', 'WebSockets']
+    items: ['Java 17', 'Spring Boot 3', 'Spring WebFlux', 'Project Reactor', 'Node.js', 'Express', 'REST APIs', 'SOAP/XML (JAXB)', 'Microservices', 'Resilience4j']
   },
   {
     category: 'Database & Caching',
-    items: ['PostgreSQL', 'MongoDB', 'Redis', 'Prisma', 'MySQL', 'AWS S3']
-  },
-  {
-    category: 'Payment Integrations',
-    items: ['Stripe API', 'PayPal SDK', 'Razorpay', 'Braintree', '3D Secure', 'PCI DSS Compliance']
-  },
-  {
-    category: 'DevOps & Tools',
-    items: ['Git', 'Docker', 'AWS', 'Jenkins', 'CI/CD', 'Nginx', 'Linux', 'Prometheus']
+    items: ['PostgreSQL', 'Cassandra', 'MongoDB', 'Redis', 'MySQL', 'SQLite', 'Prisma']
   },
   {
     category: 'Testing & Quality',
-    items: ['Jest', 'JUnit 5', 'React Testing Library', 'Testcontainers', 'Mockito', 'Swagger', 'SonarQube']
+    items: ['JUnit 5', 'Mockito', 'Reactor Test', 'Jest', 'React Testing Library', 'Cucumber (BDD)', 'SonarQube', 'Swagger/OpenAPI']
+  },
+  {
+    category: 'DevOps & Tools',
+    items: ['Git', 'GitLab', 'Bitbucket', 'Maven', 'Jenkins', 'Docker', 'CI/CD', 'Kibana', 'Quantum Metric', 'Jira', 'Rally']
+  },
+  {
+    category: 'Cloud & Infrastructure',
+    items: ['AWS', 'Azure', 'Kubernetes', 'Linux', 'Windows Server']
   },
   {
     category: 'Architecture & Patterns',
-    items: ['Microservices', 'Reactive Programming', 'Circuit Breaker', 'API Gateway', 'Event-Driven Architecture', 'REST', 'SOAP/XML']
+    items: ['Microservices Architecture', 'Reactive Programming', 'Circuit Breaker Patterns', 'Event-Driven Architecture', 'REST', 'SOAP', 'API Design', 'Security Best Practices']
+  },
+  {
+    category: 'AI & Automation',
+    items: ['Enterprise AI Integration', 'Python Scripting', 'GitHub Copilot', 'AI-Assisted Development']
   }
 ];
