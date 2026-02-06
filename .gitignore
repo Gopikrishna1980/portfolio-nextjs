@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project workspace (separate repos)
+/Myproject/
+
+# log files
+hs_err_pid*.log
