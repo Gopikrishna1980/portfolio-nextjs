@@ -18,9 +18,15 @@
               from designing responsive user interfaces to architecting backend services.
             </p>
             <p className="mb-6">
+              Recently, I have developed a strong interest in <strong>AI and Large Language Models (LLMs)</strong>, 
+              working with technologies like OpenAI, Claude, LangChain, and LangGraph to build intelligent 
+              applications. I am passionate about exploring how AI can enhance user experiences and solve 
+              complex problems in healthcare and beyond.
+            </p>
+            <p className="mb-6">
               I am passionate about clean code, best practices, and staying up-to-date with the 
               latest technologies. When I am not coding, you will find me exploring new tech trends, 
-              contributing to open-source projects, or sharing knowledge with the developer community.
+              experimenting with AI technologies, and building innovative AI-powered applications.
             </p>
           </div>
         </div>
