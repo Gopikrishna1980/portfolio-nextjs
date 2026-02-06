@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
+🔗 **Live Demo**: [https://portfolio-nextjs-mocha-beta.vercel.app/](https://portfolio-nextjs-mocha-beta.vercel.app/)
+
 ## Features
 
 -  Modern and clean design
@@ -97,4 +99,7 @@ MIT
 
 ## Author
 
-Your Name - Full Stack Developer @ Verizon
+Gopikrishna Venepalli - Full Stack Developer @ Verizon
+- Portfolio: [https://portfolio-nextjs-mocha-beta.vercel.app/](https://portfolio-nextjs-mocha-beta.vercel.app/)
+- LinkedIn: [linkedin.com/in/gopikrishna-v-a6a528b4](https://linkedin.com/in/gopikrishna-v-a6a528b4)
+- GitHub: [github.com/Gopikrishna1980](https://github.com/Gopikrishna1980)
