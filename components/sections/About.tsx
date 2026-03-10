@@ -81,7 +81,7 @@ export default function About() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { value: "5+", label: "Years Experience" },
+              { value: "8+", label: "Years Experience" },
               { value: "20+", label: "Projects Built" },
               { value: "10+", label: "Technologies" },
               { value: "100%", label: "Commitment" }
