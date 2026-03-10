@@ -15,28 +15,38 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-gray-900 text-white shadow-lg z-50">
+    <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md text-white shadow-lg z-50 border-b border-white/5">
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold">
-            Portfolio
+          <Link 
+            href="/" 
+            className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:from-blue-300 hover:to-purple-300 transition-all duration-300"
+          >
+            GV.dev
           </Link>
 
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="hover:text-blue-400 transition-colors duration-200"
+                className="relative text-gray-300 hover:text-white transition-colors duration-200 group"
               >
                 {item.name}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300" />
               </a>
             ))}
+            <a
+              href="#contact"
+              className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 rounded-lg font-semibold transition-all duration-300 hover:scale-105"
+            >
+              Let's Talk
+            </a>
           </div>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden focus:outline-none"
+            className="md:hidden focus:outline-none p-2 rounded-lg hover:bg-white/5 transition-colors"
             aria-label="Toggle menu"
           >
             <svg
@@ -65,17 +75,24 @@ export default function Navbar() {
         </div>
 
         {isOpen && (
-          <div className="md:hidden mt-4 pb-4">
+          <div className="md:hidden mt-6 pb-4 space-y-3 border-t border-white/10 pt-4">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="block py-2 hover:text-blue-400 transition-colors duration-200"
+                className="block py-2 px-4 rounded-lg text-gray-300 hover:text-white hover:bg-white/5 transition-all duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
               </a>
             ))}
+            <a
+              href="#contact"
+              className="block py-2 px-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold text-center"
+              onClick={() => setIsOpen(false)}
+            >
+              Let's Talk
+            </a>
           </div>
         )}
       </div>
