@@ -26,7 +26,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className="group relative rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 hover:bg-white/10 hover:border-blue-500/30 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
+              className="group relative rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 hover:bg-white/10 hover:border-blue-500/30 transition-all duration-300 card-3d holographic animate-border"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Gradient overlay on hover */}

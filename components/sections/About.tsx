@@ -22,9 +22,9 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Main content */}
             <div className="space-y-6">
-              <div className="group p-6 rounded-2xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
+              <div className="group p-6 rounded-2xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 card-3d">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-xl glow-effect">
                     💼
                   </div>
                   <div>
@@ -36,9 +36,9 @@ export default function About() {
                 </div>
               </div>
               
-              <div className="group p-6 rounded-2xl bg-white border border-gray-200 hover:border-purple-300 hover:shadow-xl transition-all duration-300">
+              <div className="group p-6 rounded-2xl bg-white border border-gray-200 hover:border-purple-300 hover:shadow-xl transition-all duration-300 card-3d">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white text-xl glow-effect">
                     🤖
                   </div>
                   <div>
@@ -86,8 +86,8 @@ export default function About() {
               { value: "10+", label: "Technologies" },
               { value: "100%", label: "Commitment" }
             ].map((stat, i) => (
-              <div key={i} className="text-center p-6 rounded-xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all duration-300">
-                <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+              <div key={i} className="text-center p-6 rounded-xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all duration-300 card-3d shimmer-effect">
+                <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2 text-shadow-glow">
                   {stat.value}
                 </div>
                 <div className="text-sm text-gray-600 font-medium">{stat.label}</div>

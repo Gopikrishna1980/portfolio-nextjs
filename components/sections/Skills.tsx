@@ -38,12 +38,12 @@ export default function Skills() {
           {skills.map((skillGroup, index) => (
             <div
               key={skillGroup.category}
-              className="group p-6 rounded-2xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="group p-6 rounded-2xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 card-3d holographic"
               style={{ animationDelay: `${index * 50}ms` }}
             >
               {/* Header with icon */}
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300 glow-effect">
                   {categoryIcons[skillGroup.category] || "💻"}
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
@@ -56,7 +56,7 @@ export default function Skills() {
                 {skillGroup.items.map((skill) => (
                   <span
                     key={skill}
-                    className="px-3 py-1.5 bg-gradient-to-br from-blue-50 to-purple-50 text-blue-700 rounded-lg text-sm font-medium hover:from-blue-100 hover:to-purple-100 hover:scale-105 transition-all duration-200 cursor-default border border-blue-100"
+                    className="px-3 py-1.5 bg-gradient-to-br from-blue-50 to-purple-50 text-blue-700 rounded-lg text-sm font-medium hover:from-blue-100 hover:to-purple-100 hover:scale-105 transition-all duration-200 cursor-default border border-blue-100 shimmer-effect"
                   >
                     {skill}
                   </span>

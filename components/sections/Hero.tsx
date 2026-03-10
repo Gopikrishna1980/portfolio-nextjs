@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="max-w-5xl mx-auto">
           {/* Premium badge */}
           <div className="flex justify-center mb-8 animate-fade-in">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 backdrop-blur-sm">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 backdrop-blur-sm shimmer-effect gradient-border">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <span className="text-sm font-medium text-gray-300">Available for opportunities</span>
             </div>
@@ -46,14 +46,14 @@ export default function Hero() {
           <div className="flex gap-4 justify-center flex-wrap mb-16 animate-fade-in-up animation-delay-400">
             <a
               href="#projects"
-              className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl font-semibold text-white overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/50"
+              className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl font-semibold text-white overflow-hidden transition-all duration-300 glow-effect btn-magnetic"
             >
               <span className="relative z-10">View My Work</span>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </a>
             <a
               href="#contact"
-              className="group px-8 py-4 rounded-xl font-semibold text-white border-2 border-gray-700 backdrop-blur-sm bg-white/5 hover:bg-white/10 hover:border-blue-500/50 transition-all duration-300 hover:scale-105"
+              className="group px-8 py-4 rounded-xl font-semibold text-white border-2 border-gray-700 backdrop-blur-sm bg-white/5 hover:bg-white/10 hover:border-blue-500/50 transition-all duration-300 hover-lift shimmer-effect"
             >
               <span className="group-hover:text-blue-400 transition-colors">Get In Touch</span>
             </a>
@@ -68,7 +68,7 @@ export default function Hero() {
             ].map((feature, i) => (
               <div
                 key={i}
-                className="group p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 hover:border-blue-500/30 transition-all duration-300 hover:scale-105"
+                className="group p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 hover:border-blue-500/30 transition-all duration-300 card-3d holographic"
               >
                 <div className="text-4xl mb-3">{feature.icon}</div>
                 <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
