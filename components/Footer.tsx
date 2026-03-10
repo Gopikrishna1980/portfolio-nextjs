@@ -41,12 +41,12 @@
                 <a
                   key={social.name}
                   href={social.url}
-                  target=\"_blank\"
-                  rel=\"noopener noreferrer\"
-                  className=\"w-10 h-10 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 hover:border-blue-500/30 flex items-center justify-center transition-all duration-300 hover:scale-110 group\"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 hover:border-blue-500/30 flex items-center justify-center transition-all duration-300 hover:scale-110 group"
                   aria-label={social.name}
                 >
-                  <svg className=\"w-5 h-5 text-gray-400 group-hover:text-blue-400 transition-colors\" fill=\"currentColor\" viewBox=\"0 0 24 24\">
+                  <svg className="w-5 h-5 text-gray-400 group-hover:text-blue-400 transition-colors" fill="currentColor" viewBox="0 0 24 24">
                     <path d={social.icon} />
                   </svg>
                 </a>
@@ -56,11 +56,11 @@
         </div>
         
         {/* Bottom bar */}
-        <div className=\"pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4\">
-          <p className=\"text-gray-400 text-sm\">
+        <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Gopikrishna Venepalli. All rights reserved.
           </p>
-          <p className=\"text-gray-500 text-sm\">
+          <p className="text-gray-500 text-sm">
             Built with Next.js, TypeScript & Tailwind CSS
           </p>
         </div>
