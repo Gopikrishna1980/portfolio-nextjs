@@ -8,15 +8,16 @@ export const experiences: Experience[] = [
     duration: 'April 2023 - Present',
     location: 'Remote',
     description: [
-      'Built and maintained Spring Boot microservices (Java 17) for Verizon Experience Platform (VXP), supporting customer-service operations for telecom features including Call Forwarding, Voicemail, APN Settings, and SMS notifications',
-      'Designed RESTful APIs with OpenAPI/Swagger documentation and implemented service-layer business logic for telephony workflows with strong security validations and PII masking',
-      'Integrated with downstream systems using Spring WebFlux + WebClient, including carrier gateways, Nokia SOAP/XML APIs, SMS platforms, and internal workflow services',
-      'Implemented resiliency patterns using Resilience4j (retry, circuit breaker, timeouts, fallbacks) and correlation IDs for improved observability',
-      'Developed UI components for 5G Home Internet and Payment Portal using React.js, Next.js, TypeScript, and Tailwind CSS with Verizon Design System',
-      'Monitored high-traffic production journeys using Quantum Metric and Kibana logs for root-cause analysis and incident triage',
-      'Implemented AI-powered features using approved enterprise AI platforms and automated troubleshooting tasks with Python scripts'
+      'Value Project: Built Spring Boot microservices (Java 17) for VXP platform supporting TracFone migration, handling Call Forwarding, Voicemail PIN reset, APN provisioning workflows with PII masking, SOAP/XML adapters (JAXB), and Resilience4j patterns',
+      'Payment Portal Migration: Contributed to NSE framework migration, implementing payment/TnC workflows with feature flags, SafeTech encryption, React/Next.js components using Verizon Design System, and Jest/React Testing Library test coverage',
+      '5G Home Internet: Developed React.js UI components with USPS address validation, integrated backend APIs for plan availability, monitored production using Quantum Metric/Kibana, and built Python scripts for log parsing and incident triage automation',
+      'Micro Frontend (MFE) Migration: Migrated legacy codebases to MFE architecture using Webpack Module Federation, built modular reusable components enabling independent deployments and reduced cross-team release dependencies',
+      'FIOS Plans & Digital Projects: Enhanced FIOS plan selection pages, supported Angular-to-React migration for Next/NextGen digital repositories, built SPAs with React Router, and integrated REST APIs with Redux state management',
+      'Designed RESTful APIs with OpenAPI/Swagger documentation, implemented reactive programming with Spring WebFlux + WebClient for non-blocking integrations with Nokia gateways, carrier services, and SMS platforms',
+      'Strengthened testing and quality standards with JUnit 5, Mockito, Reactor Test (StepVerifier), Cucumber BDD, and SonarQube compliance; supported Docker/Kubernetes deployments with pod log troubleshooting and environment validations',
+      'Built LLM-based incident triage POC using RAG + Qdrant with PII redaction and citation-based responses; automated troubleshooting workflows with Python to extract correlation IDs and generate summaries from Kibana logs'
     ],
-    technologies: ['Java 17', 'Spring Boot', 'Spring WebFlux', 'React', 'Next.js', 'TypeScript', 'REST APIs', 'SOAP/XML', 'Resilience4j', 'PostgreSQL', 'Cassandra', 'Docker', 'Jenkins', 'Tailwind CSS', 'Python']
+    technologies: ['Java 17', 'Spring Boot', 'Spring WebFlux', 'React', 'Next.js', 'TypeScript', 'REST APIs', 'SOAP/XML', 'Resilience4j', 'PostgreSQL', 'Cassandra', 'Docker', 'Kubernetes', 'Jenkins', 'Tailwind CSS', 'Python', 'Redux', 'Jest', 'Webpack']
   },
   {
     id: '2',
