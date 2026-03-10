@@ -76,6 +76,14 @@ export const projects: Project[] = [
   },
   {
     id: '2',
+    title: 'Intelligent Customer Support Platform',
+    description: 'Enterprise-grade AI-powered customer support system with 35+ advanced features including GPT-4 chatbot with conversation memory, intelligent ticket routing, real-time sentiment analysis, and predictive analytics. Features WebSocket-based live chat, RAG-powered semantic knowledge base search, multi-language translation (20+ languages), automatic ticket categorization, and SLA tracking. Built with FastAPI backend (40+ endpoints), Next.js 14 frontend with real-time dashboard, PostgreSQL database, and integrates OpenAI, LangChain, and Pinecone for vector search. Includes complete audit logging, RBAC, and Slack/Jira webhook integrations.',
+    technologies: ['Next.js 14', 'TypeScript', 'FastAPI', 'Python', 'OpenAI GPT-4', 'LangChain', 'RAG', 'Pinecone', 'PostgreSQL', 'Redis', 'WebSockets', 'Tailwind CSS', 'Docker', 'Sentiment Analysis'],
+    githubUrl: 'https://github.com/yourusername/intelligentcustomer-support-platform',
+    liveUrl: 'https://customer-support-demo.vercel.app',
+  },
+  {
+    id: '3',
     title: 'E-Commerce Payment Gateway Integration',
     description: 'Full-stack payment processing application with Stripe and PayPal integration, featuring secure checkout, order management, and real-time payment status tracking. Implements 3D Secure authentication, PCI DSS compliance, webhook handling for async payment confirmations, and comprehensive error recovery. Built with Next.js 15 App Router, TypeScript, and Prisma ORM with PostgreSQL database for transaction logging.',
     technologies: ['Next.js 15', 'TypeScript', 'React 18', 'Stripe API', 'PayPal SDK', 'Prisma', 'PostgreSQL', 'Tailwind CSS', 'TanStack Query', 'Zod Validation', 'Jest'],
@@ -83,7 +91,7 @@ export const projects: Project[] = [
     liveUrl: 'https://payment-gateway-demo.vercel.app',
   },
   {
-    id: '3',
+    id: '4',
     title: 'Microservices Order Management System',
     description: 'Reactive microservices architecture for order processing with Spring Boot and WebFlux. Features include circuit breaker patterns with Resilience4j, event-driven communication using Apache Kafka, Redis caching for performance optimization, and Docker containerization. Implements RESTful APIs for order creation, inventory management, payment processing, and shipment tracking with comprehensive health checks and monitoring.',
     technologies: ['Java 17', 'Spring Boot 3', 'Spring WebFlux', 'Apache Kafka', 'Redis', 'PostgreSQL', 'Docker', 'Resilience4j', 'JUnit 5', 'Testcontainers'],
@@ -91,7 +99,7 @@ export const projects: Project[] = [
     liveUrl: 'https://order-api-demo.herokuapp.com/swagger-ui',
   },
   {
-    id: '4',
+    id: '5',
     title: 'Real-Time Analytics Dashboard',
     description: 'Interactive analytics platform with real-time data visualization using React, D3.js, and WebSockets. Features include customizable dashboards, CSV/JSON data import, advanced filtering and search capabilities, data export functionality, and responsive charts. Backend built with Node.js/Express and MongoDB for time-series data storage. Implements JWT authentication, role-based access control, and Redis for WebSocket session management.',
     technologies: ['React 18', 'TypeScript', 'D3.js', 'Chart.js', 'Node.js', 'Express', 'MongoDB', 'WebSockets', 'Redis', 'JWT', 'Material-UI'],
@@ -99,7 +107,7 @@ export const projects: Project[] = [
     liveUrl: 'https://analytics-dashboard-demo.netlify.app',
   },
   {
-    id: '5',
+    id: '6',
     title: 'Task Management System with Notifications',
     description: 'Full-featured project management application with real-time collaboration, email notifications using SendGrid, drag-and-drop Kanban boards, file attachments with AWS S3, and team member assignment. Implements user authentication with NextAuth.js, real-time updates via Pusher, advanced search and filtering, activity logs, and deadline reminders. Built with Next.js, Prisma, and PostgreSQL.',
     technologies: ['Next.js 14', 'TypeScript', 'Prisma', 'PostgreSQL', 'NextAuth.js', 'SendGrid', 'AWS S3', 'Pusher', 'React DnD', 'Tailwind CSS', 'Zod'],
@@ -107,7 +115,7 @@ export const projects: Project[] = [
     liveUrl: 'https://taskmanager-demo.vercel.app',
   },
   {
-    id: '6',
+    id: '7',
     title: 'Secure API Gateway with Rate Limiting',
     description: 'Production-ready API Gateway built with Node.js/Express featuring JWT authentication, Redis-based rate limiting, request/response logging, API key management, and request validation with Joi. Implements middleware chains for authentication, authorization, CORS handling, and comprehensive error handling. Includes Swagger documentation, health check endpoints, and metrics collection with Prometheus. Deployed on AWS EC2 with Nginx reverse proxy.',
     technologies: ['Node.js', 'Express', 'Redis', 'JWT', 'Joi', 'Swagger', 'Prometheus', 'Winston', 'Docker', 'Nginx', 'AWS EC2'],
@@ -115,7 +123,7 @@ export const projects: Project[] = [
     liveUrl: 'https://api-gateway-demo.yourdomain.com/docs',
   },
   {
-    id: '7',
+    id: '8',
     title: 'Event Booking Platform',
     description: 'Full-stack event management system with seat selection, booking confirmation, QR code ticket generation, email notifications, and payment processing. Features include interactive seat maps using SVG, real-time availability updates with Socket.io, booking expiration timers, and refund processing. Built with MERN stack (MongoDB, Express, React, Node.js) and integrates Razorpay payment gateway. Implements comprehensive booking state management and conflict resolution.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 'Razorpay', 'QR Code', 'Nodemailer', 'Redux Toolkit', 'Material-UI'],
