@@ -50,7 +50,7 @@ export default function Experience() {
                   {exp.description.map((item, index) => (
                     <li key={index} className="flex items-start gap-3 text-gray-700">
                       <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-blue-500 mt-2" />
-                      <span className="leading-relaxed">{item}</span>
+                      <span className="leading-relaxed" dangerouslySetInnerHTML={{ __html: item }} />
                     </li>
                   ))}
                 </ul>
