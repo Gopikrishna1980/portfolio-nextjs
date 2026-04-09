@@ -8,15 +8,15 @@ export const experiences: Experience[] = [
     duration: 'April 2023 - Present',
     location: 'Remote',
     description: [
-      '<strong>Value Project (Full Stack - Java/React):</strong> Built Spring Boot microservices (Java 17) for VXP platform supporting TracFone migration. Handled Call Forwarding, Voicemail PIN reset, and APN provisioning workflows with PII masking, SOAP/XML adapters (JAXB), Resilience4j patterns, and React.js frontend components',
+      '<strong>Value Project (Full Stack - Java/React/Python):</strong> Built Spring Boot microservices (Java 17) for VXP platform supporting TracFone migration. Handled Call Forwarding, Voicemail PIN reset, and APN provisioning workflows with PII masking, SOAP/XML adapters (JAXB), Resilience4j patterns, and React.js frontend components. Used Python for scripting and automated testing',
       '<strong>5G Home Internet (Full Stack - Java/React):</strong> Developed React.js UI with USPS address validation and backend API integration. Automated troubleshooting with Python scripts for log parsing. Built LLM-based incident triage POC using RAG + Qdrant with PII redaction for internal runbook integration',
-      '<strong>Payment Portal Migration (Frontend - React/Next.js):</strong> Migrated legacy portal to NSE framework. Implemented payment/TnC workflows with feature flags, SafeTech encryption, using React/Next.js, TypeScript, Tailwind CSS, Verizon Design System, Jest, and React Testing Library',
+      '<strong>Payment Portal Migration (Frontend - React/Next.js/Python):</strong> Migrated legacy portal to NSE framework. Implemented payment/TnC workflows with feature flags, SafeTech encryption, using React/Next.js, TypeScript, Tailwind CSS, Verizon Design System, Jest, and React Testing Library. Used Python for scripting and automated testing',
       '<strong>FIOS Plans Project (Frontend):</strong> Developed and enhanced FIOS Plans pages supporting dynamic plan selection and pricing visualization. Integrated backend REST APIs for plan details, offers, and service availability using secure interfaces',
-      '<strong>Micro Frontend (MFE) Migration:</strong> Migrated legacy codebases to MFE architecture using Webpack Module Federation. Built modular reusable components enabling independent deployments and reduced cross-team release dependencies',
-      '<strong>Digital Project - Next/NextGen (Frontend):</strong> Developed responsive UIs using React.js, TypeScript, Redux, and Styled Components. Supported Angular-to-React migration, built SPAs with React Router, and worked with Node.js/Express.js for frontend integration and API communication',
+      '<strong>Micro Frontend (MFE) Migration:</strong> Migrated legacy codebases to MFE architecture using Webpack Module Federation. Built modular reusable components enabling independent deployments and reduced cross-team release dependencies. Implemented end-to-end testing with Cypress',
+      '<strong>Digital Project - Next/NextGen (Frontend/Python):</strong> Developed responsive UIs using React.js, TypeScript, Redux, and Styled Components. Supported Angular-to-React migration, built SPAs with React Router, and worked with Node.js/Express.js for frontend integration and API communication. Used Python for scripting and automated testing',
       'Designed RESTful APIs with OpenAPI/Swagger, implemented reactive programming with Spring WebFlux for non-blocking integrations. Strengthened quality with JUnit 5, Mockito, Cucumber BDD, and SonarQube compliance. Supported Docker/Kubernetes deployments'
     ],
-    technologies: ['Java 17', 'Spring Boot', 'Spring WebFlux', 'React', 'Next.js', 'TypeScript', 'REST APIs', 'SOAP/XML', 'Resilience4j', 'PostgreSQL', 'Cassandra', 'Docker', 'Kubernetes', 'Jenkins', 'Tailwind CSS', 'Python', 'Redux', 'Jest', 'Webpack', 'Node.js', 'Express']
+    technologies: ['Java 17', 'Spring Boot', 'Spring WebFlux', 'React', 'Next.js', 'TypeScript', 'Python', 'REST APIs', 'SOAP/XML', 'Resilience4j', 'PostgreSQL', 'Cassandra', 'Docker', 'Kubernetes', 'Jenkins', 'Tailwind CSS', 'Redux', 'Jest', 'Cypress', 'Webpack', 'Node.js', 'Express']
   },
   {
     id: '2',
@@ -92,14 +92,6 @@ export const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'Microservices Order Management System',
-    description: 'Reactive microservices architecture for order processing with Spring Boot and WebFlux. Features include circuit breaker patterns with Resilience4j, event-driven communication using Apache Kafka, Redis caching for performance optimization, and Docker containerization. Implements RESTful APIs for order creation, inventory management, payment processing, and shipment tracking with comprehensive health checks and monitoring.',
-    technologies: ['Java 17', 'Spring Boot 3', 'Spring WebFlux', 'Apache Kafka', 'Redis', 'PostgreSQL', 'Docker', 'Resilience4j', 'JUnit 5', 'Testcontainers'],
-    githubUrl: 'https://github.com/yourusername/order-management-microservices',
-    liveUrl: 'https://order-api-demo.herokuapp.com/swagger-ui',
-  },
-  {
-    id: '5',
     title: 'Real-Time Analytics Dashboard',
     description: 'Interactive analytics platform with real-time data visualization using React, D3.js, and WebSockets. Features include customizable dashboards, CSV/JSON data import, advanced filtering and search capabilities, data export functionality, and responsive charts. Backend built with Node.js/Express and MongoDB for time-series data storage. Implements JWT authentication, role-based access control, and Redis for WebSocket session management.',
     technologies: ['React 18', 'TypeScript', 'D3.js', 'Chart.js', 'Node.js', 'Express', 'MongoDB', 'WebSockets', 'Redis', 'JWT', 'Material-UI'],
@@ -107,12 +99,20 @@ export const projects: Project[] = [
     liveUrl: 'https://analytics-dashboard-demo.netlify.app',
   },
   {
-    id: '6',
+    id: '5',
     title: 'Task Management System with Notifications',
     description: 'Full-featured project management application with real-time collaboration, email notifications using SendGrid, drag-and-drop Kanban boards, file attachments with AWS S3, and team member assignment. Implements user authentication with NextAuth.js, real-time updates via Pusher, advanced search and filtering, activity logs, and deadline reminders. Built with Next.js, Prisma, and PostgreSQL.',
     technologies: ['Next.js 14', 'TypeScript', 'Prisma', 'PostgreSQL', 'NextAuth.js', 'SendGrid', 'AWS S3', 'Pusher', 'React DnD', 'Tailwind CSS', 'Zod'],
     githubUrl: 'https://github.com/yourusername/task-manager',
     liveUrl: 'https://taskmanager-demo.vercel.app',
+  },
+  {
+    id: '6',
+    title: 'Microservices Order Management System',
+    description: 'Reactive microservices architecture for order processing with Spring Boot and WebFlux. Features include circuit breaker patterns with Resilience4j, event-driven communication using Apache Kafka, Redis caching for performance optimization, and Docker containerization. Implements RESTful APIs for order creation, inventory management, payment processing, and shipment tracking with comprehensive health checks and monitoring.',
+    technologies: ['Java 17', 'Spring Boot 3', 'Spring WebFlux', 'Apache Kafka', 'Redis', 'PostgreSQL', 'Docker', 'Resilience4j', 'JUnit 5', 'Testcontainers'],
+    githubUrl: 'https://github.com/yourusername/order-management-microservices',
+    liveUrl: 'https://order-api-demo.herokuapp.com/swagger-ui',
   },
   {
     id: '7',
@@ -139,7 +139,7 @@ export const skills: Skill[] = [
   },
   {
     category: 'Backend',
-    items: ['Java 17', 'Spring Boot 3', 'Spring WebFlux', 'Project Reactor', 'Node.js', 'Express', 'REST APIs', 'SOAP/XML (JAXB)', 'Microservices', 'Resilience4j']
+    items: ['Python', 'Java 17', 'Spring Boot 3', 'Spring WebFlux', 'Project Reactor', 'Node.js', 'Express', 'REST APIs', 'SOAP/XML (JAXB)', 'Microservices', 'Resilience4j']
   },
   {
     category: 'Database & Caching',
@@ -147,7 +147,7 @@ export const skills: Skill[] = [
   },
   {
     category: 'Testing & Quality',
-    items: ['JUnit 5', 'Mockito', 'Reactor Test', 'Jest', 'React Testing Library', 'Cucumber (BDD)', 'SonarQube', 'Swagger/OpenAPI']
+    items: ['JUnit 5', 'Mockito', 'Reactor Test', 'Jest', 'React Testing Library', 'Cypress', 'Cucumber (BDD)', 'SonarQube', 'Swagger/OpenAPI']
   },
   {
     category: 'DevOps & Tools',
@@ -163,7 +163,7 @@ export const skills: Skill[] = [
   },
   {
     category: 'AI & Automation',
-    items: ['Enterprise AI Integration', 'Python Scripting', 'GitHub Copilot', 'AI-Assisted Development']
+    items: ['Python', 'FastAPI', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'NumPy', 'Pandas', 'LSTM', 'XGBoost', 'Transformers', 'Enterprise AI Integration', 'GitHub Copilot', 'AI-Assisted Development']
   },
   {
     category: 'AI/ML & LLM',

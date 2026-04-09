@@ -36,6 +36,8 @@ export default function Hero() {
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
               Crafting intelligent, scalable applications with{" "}
               <span className="text-blue-400 font-semibold">AI</span>,{" "}
+              <span className="text-green-400 font-semibold">Python</span>,{" "}
+              <span className="text-blue-500 font-semibold">TypeScript</span>,{" "}
               <span className="text-purple-400 font-semibold">React</span>, and{" "}
               <span className="text-cyan-400 font-semibold">Next.js</span>.
               <br />Building the future, one line of code at a time.
