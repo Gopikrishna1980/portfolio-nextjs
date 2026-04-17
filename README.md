@@ -101,5 +101,5 @@ MIT
 
 Gopikrishna Venepalli - Full Stack Developer @ Verizon
 - Portfolio: [https://portfolio-nextjs-mocha-beta.vercel.app/](https://portfolio-nextjs-mocha-beta.vercel.app/)
-- LinkedIn: [linkedin.com/in/gopikrishna-v-a6a528b4](https://linkedin.com/in/gopikrishna-v-a6a528b4)
+- LinkedIn: [linkedin.com/in/gopikrishna-venepalli-a6a528b4](https://linkedin.com/in/gopikrishna-venepalli-a6a528b4)
 - GitHub: [github.com/Gopikrishna1980](https://github.com/Gopikrishna1980)
